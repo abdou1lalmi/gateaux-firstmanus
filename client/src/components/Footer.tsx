@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gold/20 border border-gold/50 flex items-center justify-center">
-                <span className="font-serif font-bold text-gold text-sm">ZK</span>
+              <div className="w-10 h-10 rounded-full bg-gold/20 border border-gold/50 flex items-center justify-center overflow-hidden">
+                <img src="/manus-storage/logo_f9d0ce32.png" alt="Logo ZK" className="w-8 h-8 object-contain" />
               </div>
               <span className="font-serif font-bold text-xl tracking-wide text-cream">
                 Gâteaux Zohra Korichi

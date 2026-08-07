@@ -36,15 +36,15 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 rounded-full bg-burgundy/10 border border-gold/40 flex items-center justify-center overflow-hidden transition-transform duration-300 group-hover:scale-105">
             <img
-              src="/manus-storage/logo_zk_dd812170.png"
-              alt="Gâteaux Zohra Korichi Logo"
+              src="/manus-storage/logo_f9d0ce32.png"
+              alt="Gâteaux Zohra Korichi Logo Officiel"
               className="w-8 h-8 object-contain"
               onError={(e) => {
                 // Fallback to text initials if image is still loading/missing
                 e.currentTarget.style.display = 'none';
               }}
             />
-            <span className="font-serif font-bold text-burgundy text-sm absolute">ZK</span>
+            {/* Logo loaded */}
           </div>
           <div className="flex flex-col">
             <span className="font-serif font-bold text-lg tracking-wide text-foreground group-hover:text-gold transition-colors">
