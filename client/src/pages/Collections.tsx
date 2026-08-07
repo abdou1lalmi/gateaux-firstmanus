@@ -43,7 +43,7 @@ export default function Collections() {
         { name: "Baklawa Royale", desc: "Feuilletage croustillant, cœur généreux d'amandes parfumées à l'eau de fleur d'oranger.", price: "Sur Devis" },
         { name: "Tcharak Messaress & El Aaryen", desc: "Croissant traditionnel aux amandes enrobé de sucre glace ou d'amandes concassées.", price: "Sur Devis" },
       ],
-      image: "/manus-storage/gallery_mkhabez_ba76f81a.png",
+      image: "/manus-storage/pic1_dda305af.jpg",
     },
     {
       category: "Gâteaux de Mariage & Célébrations",
@@ -52,7 +52,7 @@ export default function Collections() {
         { name: "Coffrets de Fiançailles (Khatba)", desc: "Présentation luxueuse assortie aux couleurs de votre événement.", price: "Sur Devis" },
         { name: "Sablés Finement Décorés", desc: "Sablés pur beurre aux motifs personnalisés pour baptêmes et fêtes.", price: "Sur Devis" },
       ],
-      image: "/manus-storage/gallery_wedding_52f5c69f.png",
+      image: "/manus-storage/pic2_b06b6c18.jpg",
     },
     {
       category: "Ateliers & Formations Professionnelles",
@@ -61,7 +61,7 @@ export default function Collections() {
         { name: "Formation Complète Tradition Algéroise", desc: "Module intensif de 3 jours : Baklawa, Mchewek, Mkhabez et Tcharak.", price: "Sur Inscription" },
         { name: "Atelier Sablés & Décors Modernes", desc: "Techniques de modelage en pâte à sucre et fleurs comestibles.", price: "12,000 DZD" },
       ],
-      image: "/manus-storage/workshop_class_b2081b4a.png",
+      image: "/manus-storage/pic3_c9194155.jpg",
     },
   ];
 

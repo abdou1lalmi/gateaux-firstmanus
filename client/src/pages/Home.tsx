@@ -9,19 +9,19 @@ export default function Home() {
     {
       title: "Pâtisserie Traditionnelle",
       desc: "Mkhabez, Mchewek el Bey, Baklawa et Tcharak façonnés avec une précision royale et des ingrédients nobles.",
-      image: "/manus-storage/gallery_mkhabez_ba76f81a.png",
+      image: "/manus-storage/pic1_dda305af.jpg",
       tag: "Incontournable",
     },
     {
       title: "Gâteaux de Mariage & Pièces Montées",
       desc: "Sublimes créations sur mesure pour vos mariages, fiançailles et célébrations mémorables à Alger.",
-      image: "/manus-storage/gallery_wedding_52f5c69f.png",
+      image: "/manus-storage/pic2_b06b6c18.jpg",
       tag: "Sur Mesure",
     },
     {
       title: "Ateliers & Formations",
       desc: "Apprenez les secrets de la pâtisserie fine algérienne lors de nos ateliers professionnels exclusifs.",
-      image: "/manus-storage/workshop_class_b2081b4a.png",
+      image: "/manus-storage/pic3_c9194155.jpg",
       tag: "Masterclass",
     },
   ];
@@ -57,11 +57,11 @@ export default function Home() {
           {/* Background Image with Gradient Overlay */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/manus-storage/hero_pastry_e568c0c6.png"
+              src="/manus-storage/pic2_b06b6c18.jpg"
               alt="Gâteaux Zohra Korichi Pâtisserie Fine"
               className="w-full h-full object-cover object-center scale-105 animate-in fade-in duration-1000"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-charcoal/90 via-charcoal/70 to-charcoal/40" />
+            <div className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/80 to-charcoal/50" />
           </div>
 
           <div className="container relative z-10 text-cream py-12 md:py-20">
@@ -154,7 +154,7 @@ export default function Home() {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gold/30 aspect-[4/3]">
                   <img
-                    src="/manus-storage/gallery_mkhabez_ba76f81a.png"
+                    src="/manus-storage/pic1_dda305af.jpg"
                     alt="Mkhabez Algérien Zohra Korichi"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
