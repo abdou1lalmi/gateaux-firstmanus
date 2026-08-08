@@ -18,9 +18,12 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Accueil", href: "/" },
-    { name: "Collections & Pâtisseries", href: "/collections" },
-    { name: "Ateliers & Formations", href: "/collections#ateliers" },
-    { name: "Contact & Devis", href: "/collections#contact" },
+    { name: "Notre Maison", href: "/about" },
+    { name: "Collections", href: "/collections" },
+    { name: "Galerie", href: "/gallery" },
+    { name: "Ateliers", href: "/collections#ateliers" },
+    { name: "FAQ", href: "/faq" },
+    { name: "Contact", href: "/collections#contact" },
   ];
 
   return (
@@ -38,13 +41,11 @@ export default function Navbar() {
             <img
               src="/manus-storage/logo_f9d0ce32.png"
               alt="Gâteaux Zohra Korichi Logo Officiel"
-              className="w-8 h-8 object-contain"
+              className="w-8 h-8 object-cover"
               onError={(e) => {
-                // Fallback to text initials if image is still loading/missing
                 e.currentTarget.style.display = 'none';
               }}
             />
-            {/* Logo loaded */}
           </div>
           <div className="flex flex-col">
             <span className="font-serif font-bold text-lg tracking-wide text-foreground group-hover:text-gold transition-colors">
@@ -57,7 +58,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => {
             const isActive = location === link.href || (link.href.includes("#") && location === "/collections");
             return (
@@ -78,7 +79,7 @@ export default function Navbar() {
         </nav>
 
         {/* Actions */}
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-3">
           <a
             href="https://www.instagram.com/gateaux_zohra_korichi"
             target="_blank"
@@ -106,7 +107,7 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 rounded-lg text-foreground hover:bg-muted transition-colors"
+          className="lg:hidden p-2 rounded-lg text-foreground hover:bg-muted transition-colors"
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -115,7 +116,7 @@ export default function Navbar() {
 
       {/* Mobile menu dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-xl border-b border-border shadow-xl py-6 px-6 animate-in slide-in-from-top-2">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-xl border-b border-border shadow-xl py-6 px-6 animate-in slide-in-from-top-2">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
